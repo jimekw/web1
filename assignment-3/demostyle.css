@@ -1,0 +1,35 @@
+h1 {
+  color: #42FDAB;
+  font-size: 60px;
+  font-weight: normal;
+  font-family: helvetica;
+}
+
+body {
+  background-color: #163E2C;
+}
+
+p {
+  background-color: #2F2F2F;
+  color: #F6F6F6;
+  padding-left: 30px;
+}
+
+.first-paragraph {
+  font-size: 30px;
+  font-weight: normal;
+  color: #BFFF13;
+  font-style: italic;
+  font-family: "futura", arial, sans-serif;
+  border-bottom: 2px solid white;
+  text-decoration: underline;
+  padding-left: 30px;
+  margin: 120px;
+}
+
+.small {
+  font-size: 14px;
+  font-family: helvetica;
+  color: #BFFF13;
+  padding-left: 30px;
+}
