@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+body {
+  background-color: #dde9f0;
+}
+
+.large {
+  color: #ffffff;
+  font-size: 96px;
+  line-height: 1.2em;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  max-width: 900px;
+  padding-left: 40px;
+  transition: .7s ease;
+}
+
+.small {
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.2em;
+  font-family: 'Lato', sans-serif;
+  padding-left: 40px;
+}
+
+.large:hover {
+  color: pink;
+}
+
+a {
+  color: #efefef;
+  font-size: 10px;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  border: 1px solid #ff7656;
+  padding: 20px 20 20px 32;
+  text-transform: uppercase;
+  margin: 0 30px;
+  letter-spacing: 1em;
+  text-align: center;
+  transition: all 1s ease;
+}
+
+a:hover {
+  text-decoration: line-through;
+  border-color: ##ff7656;
+  background-color: #ff7656;
+  border-radius: 4px;
+  color: #ffffff;
+}
