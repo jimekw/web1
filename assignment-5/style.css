@@ -72,7 +72,7 @@ a.nav-link {
   text-decoration: none;
   height: 40px;
   line-height: 38px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Lato', sans-serif;
   display: inline-block;
   margin: 10px 5px;
@@ -100,14 +100,21 @@ a.nav-link:hover {
   border-radius: 3px;
   transition: all 0.2s ease;
 }
+#logo:hover{
+  background-color: rgba(0, 0, 0, 4);
+}
+
 
 /*
   Main Content
 */
 
 .main-content {
-  padding: 20px;
-  text-align: center;
+  margin: 50px auto;
+  width: 960;
+}
+.clear{
+  clear: both;
 }
 
 /*
