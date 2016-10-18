@@ -57,6 +57,7 @@ a.hero-card-link:hover {
   border-color: #d69e00
 }
 
+
 /*
   Navigation
 */
@@ -109,7 +110,7 @@ a.nav-link:hover {
   Main Content
 */
 
-.main-content {
+.main-content{
   margin: 50px auto;
   width: 960;
 }
@@ -140,10 +141,15 @@ footer {
   Home
 */
 
-.card {
+.hero-home-bg{
+  background-image: url(images/home-hero.jpg);
+  text-align: center;
+  overflow: auto;
+}
+.card{
   background-color: #fff;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-  width: clac(33.3%-20px);
+  width: calc(35.3% - 20px);
   min-height: 310px;
   margin: 10px;
   float: left;
@@ -151,11 +157,11 @@ footer {
   color: #333;
   transition: all .2s ease;
 }
-.car-hover{
-  transform:scale(1.025);
-  box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3);
+.card-hover{
+  transform: scale(1.025);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
 }
-.card-title {
+.card-title{
   padding: 0 20px;
   margin: 20px 0 10px 0;
   font-family: 'Lato', sans-serif;
@@ -165,6 +171,7 @@ footer {
   padding: 0 20px;
   margin: 0 0 20px 0;
   color: #999;
+  overflow: auto;
 }
 
 /*
@@ -193,7 +200,11 @@ footer {
 .about-list-li{
   margin: 1em auto;
 }
-
+.hero-about-bg{
+  background-image: url(images/about-hero.jpg);
+  text-align: center;
+  overflow: auto;
+}
 /*
   Assignments
 */
