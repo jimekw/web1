@@ -20,7 +20,6 @@ a:hover {
 
 /*
   Hero
-
 */
 
 .hero {
@@ -141,11 +140,13 @@ a.footer-link-hover {
 /*
   Home
 */
-
+#card-img{
+width: calc(100%);
+}
 .card{
   background-color: #fff;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-  width: calc(35.3% - 20px);
+  width: calc(33.3% - 20px);
   min-height: 310px;
   margin: 10px;
   float: left;
