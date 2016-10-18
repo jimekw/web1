@@ -143,8 +143,7 @@ footer {
 
 .hero-home-bg{
   background-image: url(images/home-hero.jpg);
-  text-align: center;
-  overflow: auto;
+  max-height: 485px;
 }
 .card{
   background-color: #fff;
