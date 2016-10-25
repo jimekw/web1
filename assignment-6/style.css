@@ -93,8 +93,6 @@ a.hero-card-link:hover {
 /*
   Navigation
     border-radius: 20px;
-    
-      background-color: rgba(0, 0, 0, 4)
 */
 
 .main-nav {
@@ -119,6 +117,7 @@ a.nav-link {
 a.nav-link:hover {
   color: #51ddd9;
   border-color: #51ddd9;
+  background-color: rgba(0, 0, 0, 4);
 }
 #logo{
   float: left;
