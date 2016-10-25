@@ -92,6 +92,9 @@ a.hero-card-link:hover {
 
 /*
   Navigation
+    border-radius: 20px;
+    
+      background-color: rgba(0, 0, 0, 4)
 */
 
 .main-nav {
@@ -109,15 +112,13 @@ a.nav-link {
   font-family: 'Lato', sans-serif;
   display: inline-block;
   margin: 10px 5px;
-  border-radius: 20px;
   padding: 0 15px;
-  border: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
   transition: all 0.2s ease;
 }
 a.nav-link:hover {
   color: #51ddd9;
   border-color: #51ddd9;
-  background-color: rgba(0, 0, 0, 4)
 }
 #logo{
   float: left;
@@ -134,7 +135,8 @@ a.nav-link:hover {
   transition: all 0.2s ease;
 }
 #logo:hover{
-  background-color: rgba(0, 0, 0, 4);
+  opacity: 0.6;
+  transition: ease-in-out 0.2s;
 }
 
 
@@ -350,5 +352,5 @@ padding:40px;
 }
 
 .spacer {
-  height: 40px;
+  height: 50px;
 }
