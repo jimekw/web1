@@ -216,19 +216,20 @@ width: calc(100%);
 }
 .about-main-list-container{
   margin: 100px;
+  width: 960;
 }
 .about-list-container {
   border-left: 5px solid #51ddd9;
-  padding: 20px 50px;
+  padding: 5px 50px;
   margin-bottom: 50px;
 }
 .about-list-title{
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 700;
   color: #333;
 }
 .about-list{
-  font-size: 24px;
+  font-size: 18px;
 }
 .about-list-li{
   margin: 1em auto;
@@ -337,7 +338,7 @@ padding:40px;
   padding: 0 10px;
 }
 
-.button{
+.button {
   background-color: #3c8bce;
   height: 32px;
   margin-left: 10px;
@@ -348,6 +349,6 @@ padding:40px;
   border-radius: 3px;
 }
 
-.Spacer {
-  height: 40px
+.spacer {
+  height: 40px;
 }
