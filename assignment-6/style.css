@@ -1,6 +1,318 @@
-.body {
-  background-color: #333;
+/*
+  General Styling
+*/
+@import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i';
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #f1f1f1;
+  color: #333;
+  margin: 0;
 }
+a,a:visited {
+  text-decoration: none;
+  color: #1B89CA;
+}
+a:hover {
+  color: #51ddd9;
+}
+
+/*
+  Hero
+*/
+
 .hero {
-  background-color: #2b4d70;
+  background-color: #16445f;
+  text-align: center;
+  overflow: auto;
+}
+.hero-card {
+  border: 2px solid #fff;
+  background-color: rgba( 5, 5, 5, 25);
+  color: #efefef;
+  padding: 50px;
+  width: 800px;
+  margin: 100px auto 50px auto;
+}
+.hero-card-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0;
+}
+.hero-card-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+a.hero-card-link {
+  text-decoration: none;
+  color: #efefef;
+  font-size: 18px;
+  border: 2px solid #efefef;
+  padding: 5px 20px;
+}
+a.hero-card-link:hover {
+  color: #d69e00;
+  border-color: #d69e00
+}
+#hero-home{
+  background-image: url(images/home-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-assignments{
+  background-image: url(images/assignments-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-coffee{
+  background-image: url(images/coffee-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-about{
+  background-image: url(images/about-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-search{
+  background-image: url(images/search-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*
+  Navigation
+*/
+
+.main-nav {
+  max-width: 960;
+  margin: 20px auto;
+  text-align: center;
+}
+a.nav-link {
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  height: 40px;
+  line-height: 38px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  margin: 10px 5px;
+  border-radius: 20px;
+  padding: 0 15px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  transition: all 0.2s ease;
+}
+a.nav-link:hover {
+  color: #51ddd9;
+  border-color: #51ddd9;
+  background-color: rgba(0, 0, 0, 4)
+}
+#logo{
+  float: left;
+  margin-right: 100px;
+  width: 0;
+  height: 60;
+  color: rgba(255, 255, 255, 0);
+  padding: 30px 160px 0 0;
+  background-image: url(images/jw-logo.svg);
+  background-size: 120px 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+#logo:hover{
+  background-color: rgba(0, 0, 0, 4);
+}
+
+
+/*
+  Main Content
+*/
+
+.main-content{
+  margin: 50px auto;
+  width: 960;
+}
+.clear{
+  clear: both;
+}
+
+/*
+  Footer
+*/
+
+footer {
+  background-color: #333;
+  color: #999;
+  padding: 20px;
+  text-align: center;
+}
+a.footer-link {
+  color: #46d7cf;
+  text-decoration: none;
+}
+a.footer-link-hover {
+  color: #51ddd9;
+  text-decoration: underline;
+}
+
+/*
+  Home
+*/
+
+#card-img{
+width: calc(100%);
+}
+.card{
+  background-color: #fff;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  width: calc(33.3% - 20px);
+  min-height: 310px;
+  margin: 10px;
+  float: left;
+  text-decoration: none;
+  color: #333;
+  transition: all .2s ease;
+}
+.card-hover{
+  transform: scale(1.025);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.card-title{
+  padding: 0 20px;
+  margin: 20px 0 10px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+.card-description {
+  padding: 0 20px;
+  margin: 0 0 20px 0;
+  color: #999;
+  overflow: auto;
+}
+
+/*
+  About
+*/
+
+.about-photo{
+  width:200;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 3);
+}
+.about-main-list-container{
+  margin: 100px;
+}
+.about-list-container {
+  border-left: 5px solid #d69e00;
+  padding: 20px 50px;
+  margin-bottom: 50px;
+}
+.about-list-title{
+  font-size: 30px;
+  font-weight: 400;
+  color: #d69e00;
+}
+.about-list{
+  font-size: 24px;
+}
+.about-list-li{
+  margin: 1em auto;
+}
+.hero-about-bg{
+  background-image: url(images/about-hero.jpg);
+  text-align: center;
+  overflow: auto;
+}
+/*
+  Assignments
+*/
+
+.assignment-list {
+  border: 4px solid #ddd;
+  padding: 20px;
+  margin: 20px auto;
+  width: 860px;
+  text-align: left;
+}
+
+#header-assignments{
+  padding-top: 24px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  Padding-left: 40;
+}
+
+#description-assignments{
+  text-align: left;
+}
+/*
+  Coffee
+*/
+
+.coffee-quote {
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px 15px;
+  border-left: 5px solid #d69e00;
+}
+cite {
+  display: block;
+  color: #666;
+  font-size: 16px;
+}
+.menu {
+  border: 4px solid #ddd;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+}
+
+.menu th{
+  padding: 10px;
+}
+.menu .size{
+  min-width: 150px;
+  text-align: right;
+  font-size: 14px;
+}
+.menu td {
+  padding: 10px 10px;
+  vertical-align: top;
+  text-align: right;
+}
+.menu dd {
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+  font-size: 14px;
+}
+.menu .label{
+  text-align: left;
+}
+
+/*
+  Search
+*/
+
+.search-placeholder {
+  width: 600px;
+  height: 400px;
+  background-color: #ddd;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
 }
