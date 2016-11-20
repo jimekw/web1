@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'CircularStd-Book';
+  src: url('fonts/circular-std/CircularStd-Book.otf');
+}
+
+@font-face {
+  font-family: 'CircularStd-Medium';
+  src: url('fonts/circular-std/CircularStd-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Graphik-Light';
+  src: url('fonts/graphik/Graphik-Light.otf');
+}
+
+@font-face {
+  font-family: 'Graphik-Regular';
+  src: url('fonts/graphik/Graphik-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: url('fonts/graphik/Graphik-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Graphik-Bold';
+  src: url('fonts/graphik/Graphik-Bold.otf');
+}
+
+/*
+  General Styling
+  
+  Colors:
+  light-gray: #FFFFFF
+  light-gray: #F6F7F9
+  med-gray: #97989C
+  dark-gray: #626262
+  orange: #FC8E19
+  number on gray: #EAEBED
+*/
+
+body {
+  font-family: 'Graphik-Light', Arial, sans-serif;
+  background-color: #FC8E19;
+  color: #333;
+  margin: 0;
+}
+
+a,a:visited {
+  text-decoration: none;
+  color: #d69e00;
+}
+
+a:hover {
+  color: #e4b532;
+}
+
+.text-wht {
+  color: #ffffff; 
+}
+
+overline{
+  font-family: 'Graphik-Medium', Arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: #626262;
+}
+
+h1 {
+  font-family: 'Graphik-Regular', Arial, sans-serif;
+  font-size: 3em;
+  line-height: 1.2em;
+  color: #626262; 
+}
+
+p { 
+  font-family: 'Graphik-Light', Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #626262;
+  
+}
+
+.p-line-length{
+ width: 40%;
+ max-width: 1000px;
+}
+
+
+/*
+  Navigation
+*/
+
+.main-nav {
+  width: 80%;
+  min-width: 960px;
+  max-width: 1080;
+  margin: 20px auto;
+  text-align: right;
+  
+}
+
+a.nav-link {
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 5px;
+  padding: 10px 15px;
+}
+
+a.nav-link:hover {
+  color: #ffd86b;
+  transition: ease .3s;
+}
+/*
+  Logo
+  background-image: url(assets/logo/epic-logo-yellow-hover.svg);
+  padding-top: 10px;
+  background-repeat: none;
+  background-position: center top;
+*/
+#logo {
+  float: left;
+  padding-top: 10px;
+}
+
+#logo:hover {
+  opacity: .8;
+}
+
+/*
+  Main Content
+  
+*/
+
+.main-content{
+  width: 80%;
+  min-width: 960px;
+  max-width: 1080;
+  margin: 20px auto;
+}
+
+.spacer{
+  min-height: 8em; 
+}
+
+
+
+
+/*
+  Footer
+*/
+
+footer{
+  min-height: 300px;
+  background-color: #97989C;
+}
+
+
+
+/*
+  Hero
+*/
+
+.hero{
+  min-height: 800px;
+  max-height: 100%;
+  background-color: #FC8E19;
+}
+
+
+/*
+  Home
+*/
+
+.hero-home{
+  
+}
+
+.storage{
+  position: fill; 
+  min-height: 800px;
+  max-height: 100%;
+  background-color: #ffffff;
+}
+
+.side-kick{
+  min-height: 360px;
+  background-color: #FC8E19;
+}
+
+/*
+  Home
+*/
+
+.hero-plan{
+  
+}
+
+.side-kick-gray{
+  min-height: 360px;
+  background-color: #FC8E19;
+}
+
+.disasters{
+  background-color: #ffffff;
+}
