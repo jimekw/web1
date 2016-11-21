@@ -103,6 +103,14 @@ h3 {
  display: inline-block;
 }
 
+.text-container-center{
+ width: 40%;
+ max-width: 1000px;
+ min-width: 600px;
+ padding-top: 4em;
+ margin: 20px auto;
+}
+
 #btn{
   font-family: 'Graphik-Regular', Arial, sans-serif;
   color: #ffffff;
@@ -253,23 +261,54 @@ a.nav-link-footer {
 }
 
 .side-kick{
+  text-align: center;
   min-height: 360px;
   background-color: #FC8E19;
 }
 
 /*
-  Home
+  Have a plan
 */
 
 .hero-plan{
-  
+  min-height: 500px;
+  max-height: 100%;
+  background-color: #FC8E19; 
 }
 
 .side-kick-gray{
+  text-align: center;
   min-height: 360px;
-  background-color: #FC8E19;
+  background-color: #F5F7F9;
+  vertical-align: middle;
 }
 
 .disasters{
   background-color: #ffffff;
+}
+
+
+
+
+/*
+  Build your bag
+*/
+
+.build-sec-gray{
+  max-height: 100%;
+  background-color: #F6F7F9;
+}
+
+
+
+
+.build-sec-left{
+  width: 80%;
+  min-width: 960px;
+  max-width: 1080;
+  margin: 20px auto;
+  text-align: left;
+  min-height: 600px;
+  background-color: #F5F7F9;
+  vertical-align: middle;
 }
