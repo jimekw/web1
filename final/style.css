@@ -60,16 +60,21 @@ a:hover {
   color: #ffffff; 
 }
 
+.text-orange {
+  color: #FC8E19; 
+}
+
+
 overline{
   font-family: 'Graphik-Medium', Arial, sans-serif;
-  font-size: 1em;
-  letter-spacing: 0.1em;
+  font-size: .8em;
+  letter-spacing: 0.12em;
   color: #626262;
 }
 
 h1 {
   font-family: 'Graphik-Regular', Arial, sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1.2em;
   color: #626262; 
 }
@@ -78,15 +83,35 @@ p {
   font-family: 'Graphik-Light', Arial, sans-serif;
   font-size: 1em;
   line-height: 1.6em;
+  padding-bottom: 2em;
   color: #626262;
-  
 }
 
-.p-line-length{
+h3 {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 5px;
+  padding: 10px 15px;
+}
+
+.text-container{
  width: 40%;
  max-width: 1000px;
+ min-width: 600px;
+ margin-right: 8em;
+ display: inline-block;
 }
 
+#btn{
+  font-family: 'Graphik-Regular', Arial, sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  letter-spacing: 0.08em;
+  border: 2px solid #ffffff; 
+  padding: 10px 20px;
+  border-radius: 3px;
+}
 
 /*
   Navigation
@@ -146,7 +171,11 @@ a.nav-link:hover {
   min-height: 8em; 
 }
 
-
+.image-right{
+  margin-top: 2em;
+  display: inline-block;
+  vertical-align: top;
+}
 
 
 /*
@@ -158,7 +187,34 @@ footer{
   background-color: #97989C;
 }
 
+.footer-content{
+  width: 80%;
+  min-width: 960px;
+  max-width: 1080;
+  margin: 20px auto;
+  padding-top: 50px;
+}
 
+#logo-footer{
+  float: left;
+  padding-top: 10px;
+  padding-right: 15%;
+}
+
+li{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 5%;
+}
+
+a.nav-link-footer {
+  color: #FFFFFF;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 5px;
+  padding: 10px 15px;
+}
 
 /*
   Hero
@@ -180,7 +236,17 @@ footer{
 }
 
 .storage{
-  position: fill; 
+  width: 80%;
+  min-width: 960px;
+  max-width: 1080;
+  margin: 20px auto;
+}
+
+#img-storage{
+  padding-left: 100px;
+}
+
+.wht-section{
   min-height: 800px;
   max-height: 100%;
   background-color: #ffffff;
