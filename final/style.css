@@ -87,6 +87,12 @@ p {
   color: #626262;
 }
 
+h2 {
+  color: #626262;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
 h3 {
   color: #FFFFFF;
   text-decoration: none;
@@ -176,15 +182,21 @@ a.nav-link:hover {
 }
 
 .spacer{
-  min-height: 8em; 
+  min-height: 10em; 
 }
 
 .image-right{
   margin-top: 2em;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: center;
+  position: absolute; 
 }
 
+.image-align-top{
+  vertical-align: center;
+  display: inline-block;
+  position: absolute;
+}
 
 /*
   Footer
@@ -283,11 +295,26 @@ a.nav-link-footer {
   vertical-align: middle;
 }
 
-.disasters{
-  background-color: #ffffff;
+.side-kick-orange{
+  text-align: center;
+  min-height: 360px;
+  background-color: #FC8E19;
+  vertical-align: middle;
 }
 
 
+.disasters-all{
+  width: 80%;
+  min-width: 960px;
+  max-width: 1080;
+  margin: 20px auto;
+}
+
+.disasters{
+  min-height: 500px;
+  max-height: 100%;
+  background-color: #ffffff;
+}
 
 
 /*
@@ -296,7 +323,9 @@ a.nav-link-footer {
 
 .build-sec-gray{
   max-height: 100%;
+  min-height: 500px;
   background-color: #F6F7F9;
+  padding-top: 5em;
 }
 
 
