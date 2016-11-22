@@ -94,6 +94,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Graphik-Regular', Arial, sans-serif;
   color: #FFFFFF;
   text-decoration: none;
   font-size: 18px;
@@ -108,6 +109,11 @@ h3 {
  margin-right: 8em;
  display: inline-block;
 }
+
+.text-container-disasters{
+ display: inline-block;
+}
+
 
 .text-container-center{
  width: 40%;
