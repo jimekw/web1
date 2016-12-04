@@ -212,12 +212,32 @@ a.nav-link:hover {
   min-height: 5em; 
 }
 
-.image-right{
+.image-right-1{
   margin-top: 2em;
   display: inline-block;
-  vertical-align: center;
+  vertical-align: middle;
   position: absolute;
   margin: auto;
+}
+
+.image-right-home{
+  margin-top: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  max-width: 800px;
+  max-height: 800px;
+  float: right;
+}
+
+.image-right-home-grab-go{
+  margin-top: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  max-width: 500px;
+  max-height: 500px;
+  float: right;
 }
 
 .image-align-top{
@@ -271,7 +291,8 @@ a.nav-link-footer {
 */
 
 .hero{
-  min-height: 800px;
+  min-height: 720px;
+  max-height: 800px;
   max-height: 100%;
   background-color: #FC8E19;
 }
