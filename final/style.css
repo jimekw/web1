@@ -274,7 +274,7 @@ footer{
   padding-right: 25%;
 }
 
-li{
+.li-footer{
   display: inline-block;
   vertical-align: top;
   padding-left: 5%;
@@ -410,6 +410,11 @@ a.nav-link-footer {
   color: #EAEBED;
   background-position: left;
   
+  text-align: left;
+  width: 60%;
+  min-width:10%;
+  vertical-align: top;
+  
 */
 
 
@@ -489,10 +494,7 @@ a.nav-link-footer {
 
 .build-list-container{
   display: inline-block;
-  text-align: left;
-  width: 60%;
-  min-width:40%;
-  vertical-align: top;
+  padding-right: 10%;
 }
 
 .li-build{
@@ -539,4 +541,29 @@ a.nav-link-footer {
 #background-number-right-6{
   background-image: url(assets/build-bag/number-6.svg);
   background-repeat: no-repeat;
+}
+
+.basic-gear-list{
+  width: 80%;
+  min-width: 960px;
+  max-width: 1080;
+  margin: auto;
+  text-align: left;
+  min-height: 400px;
+  vertical-align: middle;
+  padding-top: 60px;
+  
+}
+
+.basic-gear-list-container{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  min-width: 10%;
+  float: right;
+}
+
+.li-basic-gear{
+  display: block;
+  padding-top: 10px;
 }
