@@ -455,12 +455,11 @@ a.nav-link-footer {
 }
 
 .text-container-right{
- width: 42%;
+ width: 50%;
  max-width: 800px;
  min-width: 20%;
  height: 360px;
  display: inline-block;
- margin-left: 4em;
  vertical-align: top;
  float: right;
 }
