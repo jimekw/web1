@@ -3,6 +3,16 @@
   <head>
     <title>Have a plan</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style> 
+    @media only screen and (max-width: 960px) {
+      #parent{
+        display: flex;
+        flex-flow: column;
+      }
+      #b{order: 1;}
+      #a{order: 2;}
+    }
+  </style>
   </head>
   <body>
     <nav class="main-nav">
@@ -38,29 +48,29 @@
     </div>
 
     <div class="build-sec-gray">
-      <div class="build-sec-left" id="background-number-left-1">
-        <div class="text-container-left">
+      <div class="build-sec-left" id="background-number-left-1" id="parent">
+        <div class="text-container-left" id="a">
           <h1 class="text-orange">
             Water
           </h1>
-          <p>
+          <p id="build-sec-body">
             Water is essential to sustain life and crucial for one’s survival. A person needs a minimum of around a 1/4 gallon or one liter per day. But water can be heavy, so it’s important to have a way to purify it for drinking. Water filtration and purification systems are one of the most important part of a BOB and there are serval methods to choose from.
           </p>
           <div>
             <div class="build-list-container">
-              <li class="li-build">Water bottle</li>
+              <li class="li-build">Water filter</li>
               <li class="li-build">Iodine or purification tablet</li>
               <li class="li-build">A way to boil water</li>
             </div>
             <div class="build-list-container">
-              <li class="li-build">Water filter</li>
-              <li class="li-build">Collapsible water bottle for extra storage</li>
+              <li class="li-build">Water bottle</li>
+              <li class="li-build">Collapsible storage container</li>
               <li class="li-build">Hydration water bladder</li>
             </div>
           </div>
           
         </div>
-        <img class="image-build-right" src="assets/build-bag/1-build-bag-water.svg"></img>
+        <img class="image-build-right" src="assets/build-bag/1-build-bag-water.svg" id="b"></img>
       </div>
     </div>
 
@@ -71,7 +81,7 @@
           <h1 class="text-orange">
             Food & Cooking
           </h1>
-          <p>
+          <p id="build-sec-body">
             The best kind of food is dehydrated non-perishables like freeze dried meals because they are lightweight and can be stored for long periods of time. For cooking make sure you have a small portable camp stove and a mess kit to boil water and prepare food.
           </p>
           <div>
@@ -100,7 +110,7 @@
           <h1 class="text-orange">
             Clothing
           </h1>
-          <p>
+          <p id="build-sec-body">
             In general you should pack like you’re going on a weekend backpacking trip. Be sure to plan for the weather in your area. Pack clothes that can be layered so you are prepared for cold and warm weather.
           </p>
           <div>
@@ -134,7 +144,7 @@
           <h1 class="text-orange">
             Shelter
           </h1>
-          <p>
+          <p id="build-sec-body">
             Shelter and a warm sleeping bag is important for protection from the elements. A warm dry place to sleep can do a lot and in a high stress situation it is crucial to stay rested. A shelter can be a small back packing tent or a thermal blanket and ground tarp.
           </p>
           <div>
@@ -161,7 +171,7 @@
           <h1 class="text-orange">
             First Aid Kit
           </h1>
-          <p>
+          <p id="build-sec-body">
             First aid kits are an essential piece of your bag. This list has the basic items for a first aid kit but remember that some people might have medical conditions that will require other items that are not on this list such as prescription medications.
           </p>
           <div>
@@ -193,7 +203,7 @@
           <h1 class="text-orange">
             Basic Gear
           </h1>
-          <p>
+          <p id="build-sec-body">
             This category covers a broad range of items so breaking them up is very helpful. First is lighting which is important because in an emergency situation there may not be electricity and you need a way to see at night. Next is something to make fire and I recommend flint and steel because it still works even if it gets wet. Lastly communication and positioning there are a number of things you can have ready depending on the type of emergency. If there are still cell towers working a cell phone is great and remember your charger. If not a good ol’ walkie talkie, compass and map can help you communicate with your group and orient yourself to your surroundings. 
           </p>
         </div>
@@ -246,7 +256,7 @@
           <h1 class="text-orange">
             Important Papers
           </h1>
-          <p>
+          <p id="build-sec-body">
             This is one of the most important things that many people forget and regret. One solution is to have originals or copies in a safe at your local bank. But if the disaster has effected the entire community it may be better to keep copies on your person for safe keeping. Now with the digital age your can store valuable documents and backups on flashdrive.
           </p>
           <div>
